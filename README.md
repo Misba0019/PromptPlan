@@ -1,1 +1,1 @@
-# todo-list-js
+# todo-list
