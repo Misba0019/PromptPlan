@@ -7,3 +7,6 @@ This project utilizes HTML, CSS, and JavaScript to create a dynamic and user-fri
 - Delete tasks
 - Save tasks to local storage
 - Quit
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
