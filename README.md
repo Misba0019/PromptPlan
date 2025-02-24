@@ -12,12 +12,12 @@ This project utilizes HTML, CSS, and JavaScript to create a dynamic and user-fri
 ## To run this project locally, follow these steps:
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Misba0019/todo-list-js.git
+    git clone https://github.com/Misba0019/ToDo-List.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd todo-list-js
+    cd ToDo-List
     ```
 
 3. **Open the `index.html` file in your preferred web browser.**
