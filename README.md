@@ -20,7 +20,7 @@ This project utilizes HTML, CSS, and JavaScript to create a dynamic and user-fri
     cd ToDo-List
     ```
 
-3. **Open the `index.html` file in your preferred web browser.**
+3. **Open the `ToDo_List.html` file in your preferred web browser.**
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
