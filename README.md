@@ -23,4 +23,4 @@ This project utilizes HTML, CSS, and JavaScript to create a dynamic and user-fri
 3. **Open the `ToDo_List.html` file in your preferred web browser.**
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
