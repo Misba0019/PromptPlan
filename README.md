@@ -1,13 +1,14 @@
 # Todo-List
 ## Overview
-The **To-Do List Website** is a simple, interactive web application that allows users to manage their tasks efficiently. 
-This project utilizes HTML, CSS, and JavaScript to create a dynamic and user-friendly interface.
+The **My To-Do Planner** is a simple, interactive web application that allows users to manage their tasks efficiently. 
+This project utilizes HTML, CSS, and JavaScript to create a dynamic and user-friendly interface. It also incorporates **Bootstrap** for styling and **local storage** for task persistence.
 
 ## Features
 - Add new tasks
 - Delete tasks
 - Save tasks to local storage
-- Quit
+- View tasks in a visually appealing list
+- Quit the application
 
 ## To run this project locally, follow these steps:
 1. **Clone the repository:**
