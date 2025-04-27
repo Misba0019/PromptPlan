@@ -1,6 +1,6 @@
 # Todo-List
 ## Overview
-The **My To-Do Planner** is a simple, interactive web application that allows users to manage their tasks efficiently. 
+The **My To-Do Planner** is a simple, interactive web application that allows users to manage their tasks efficiently.  
 This project utilizes HTML, CSS, and JavaScript to create a dynamic and user-friendly interface. It also incorporates **Bootstrap** for styling and **local storage** for task persistence.
 
 ## Features
