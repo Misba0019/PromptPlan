@@ -1,6 +1,9 @@
+// Array to store to-do items
 let newTodo = [];
-// We store the list items in an array, as an array is a collection of data.
 
+
+// Render the to -do list items on the page.
+// Called after every update(add / delete).
 function updateList() {
     const ul = document.getElementById('todo-list');
     ul.innerHTML = ''; // Clear the list
@@ -13,14 +16,14 @@ function updateList() {
     });
 }
 
-// Function to delete a specific todo item by index.
+// Remove a task from the list based on index.
 function deleteItem(index) {
     const removeItem = newTodo.splice(index, 1);
     updateList();
     alert(`${removeItem[0]} has been removed from the list.`);
 }
 
-// Function to display the list in a cleaner format.
+// Show the full to-do list in an alert box.
 function showList() {
     if (newTodo.length === 0) {
         alert('Your to-do list is empty.');
@@ -29,12 +32,11 @@ function showList() {
     }
 }
 
+// Main interaction loop using prompt()
 while (true) {
     let input = prompt("What would you like to do?\n- Type 'new' to add a task\n- Type 'list' to view tasks\n- Type 'delete' to remove a task\n- Type 'quit' to exit");
-    // Prompting the user to enter a command.
 
-    // Adding a New To-Do Item
-    if (input === "new") {
+    if (input === "new") { // Add a New To-Do Item
         let todoItem = prompt("Please enter a new todo:");
         if (todoItem) {
             newTodo.push(todoItem);
@@ -43,14 +45,11 @@ while (true) {
         } else {
             alert("Task cannot be empty. Please enter a valid task.");
         }
-
-    // Displaying the to-do list.
-    } else if (input === "list") {
+        
+    } else if (input === "list") { // Display the to-do list.
         showList();
-        // Using a for loop to display the list items with their index in the console and on the webpage.
 
-    // Deleting a Specific To-Do Item
-    } else if (input === "delete") {
+    } else if (input === "delete") { // Delete a Specific To-Do Item
         if (newTodo.length === 0) {
             alert("Your to-do list is empty. Nothing to delete.");
         } else {
@@ -64,7 +63,7 @@ while (true) {
         }
     }
 
-    // Quitting the Application
+    // Quit Prompt
     } else if (input === "quit") {
         alert("Goodbye! Here's your final to-do list:\n" + newTodo.map((item, index) => `${index + 1}: ${item}`).join('\n'));
         break;
